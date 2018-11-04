@@ -7,7 +7,7 @@ Conjugate gradient method parallelization using OpenMP
   - **globals.h** : some data defination.
   - **common** : functions for verification and time caculation.
   - **bin** : excutable output directory.
-  - **Makefile**, make.common : make systems.
+  - **Makefile, make.common** : make systems.
 
 - Build up:
 
