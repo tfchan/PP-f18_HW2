@@ -1,6 +1,7 @@
 #!/bin/sh
+usage="Usage: $0 <0|1|2>\nData size: 0=SMALL, 1=MEDIUM, 2=LARGE"
 if [ $# -ne 1 ]; then
-    echo "Usage: $0 [0|1|2]\nData size: 0=SMALL, 1=MEDIUM, 2=LARGE"
+    echo $usage
     exit 1
 else
     case $1 in
@@ -14,7 +15,7 @@ else
             dataSize="LARGE"
             ;;
         *)
-            echo "Usage: $0 [0|1|2]\nData size: 0=SMALL, 1=MEDIUM, 2=LARGE"
+            echo $usage
             exit 1
             ;;
     esac

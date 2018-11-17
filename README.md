@@ -18,3 +18,8 @@ Conjugate gradient method parallelization using OpenMP
 
 - Check correctness:  
 Main function contains verification information, it will show *VERIFICATION SUCCESSFUL/FAILED* to indicate the correctness of the program.
+
+- Run:
+
+      ./run.sh <0|1|2>
+  0/1/2 mean small/medium/large data size respectively.
